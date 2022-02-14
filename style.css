@@ -1,0 +1,99 @@
+*{box-sizing: border-box;
+margin: 0}
+/* contenitore1 */
+body{
+  background-image: url(background.jpg);
+  background-size: cover;
+  color: white;
+  font-family: arial;
+  font-size: 12px;
+}
+/* Contenitore2 */
+.main{
+  border-style: solid transparent;
+  border-radius: 10px;
+  padding-bottom: 80px;
+  padding-right: 60px;
+  padding-left: 60px;
+  padding-top: 80px;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: auto;
+  width: 1000px;
+  background: rgba(0, 0, 0, 0.5);
+}
+/* Header */
+header{
+  text-align: center;
+  padding-top: 30px;
+  width: 800px;
+}
+.logo{
+  width: 190px;
+  text-align: center;
+}
+h1{
+  font-size: 24px;
+  color: lime;
+  padding-bottom: 5px;
+}
+.testa{
+  width: 800px;
+}
+/* Navigazione */
+
+nav{
+  background-color: lime;
+  padding: 10px;
+  width: 800px;
+  box-sizing: border-box;
+  margin: 0;
+  text-align: center;
+}
+section{
+  display: inline-block;
+}
+
+
+/* Main */
+.boolenear > span{
+  font-size: 18px;
+  font-weight: bold;
+}
+.arrow:before{
+  content: "\21A6"
+}
+.arrow{
+  padding: 3px;
+}
+
+/* Boolenear 1 */
+
+.boolenear.uno p:last-child{
+  background-color: orange;
+  width: 300px;
+  border-radius: 5px;
+  padding: 14px;
+  font-size: 0
+}
+/* Boolenear 2 */
+.boolenear.due p:last-child{
+  background-color: lime;
+  width: 500px;
+  border-radius: 5px;
+  padding: 14px;
+  font-size: 0
+}
+
+/* Boolean 3 */
+.boolenear{
+  padding-top: 25px;
+}
+.boolenear.tre p:last-child{
+  background-color: red;
+  width: 110px;
+  border-radius: 5px;
+  padding: 14px;
+  font-size: 0
+}
